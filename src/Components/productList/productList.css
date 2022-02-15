@@ -1,0 +1,52 @@
+.pl {
+    padding: 3.12rem 6.24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pl-texts {
+    width: 65%;
+}
+
+.pl-title {
+    font-size: 3.12rem;
+    font-weight: 600;
+}
+
+.pl-desc {
+    margin: 1.25rem 0px;
+    font-size: 20px;
+}
+
+.pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 0px;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    display: none;
+  }
+
+  .pl-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.pl-list {
+  margin-top: 0.62rem;
+}
+}

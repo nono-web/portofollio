@@ -1,0 +1,108 @@
+.pr {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.pr-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.pr-right {
+    flex: 1;
+}
+
+.pr-card.bg {
+    position: absolute;
+    top: 3.12rem;
+    left: 3.12rem;
+    background-color: rgba(0, 47, 255, 0.26);
+}
+
+.pr-card {
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.pr-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pr-award-img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 1.25rem;
+}
+
+.pr-award {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.pr-title {
+    font-size: 3.12rem;
+}
+
+.pr-desc {
+    font-size: 2.5rem;
+    margin-top: 3.12rem;
+   
+}
+.pr-sub {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.pr-sub2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    color: rgba(0, 47, 255, 0.753);
+}
+
+@media screen and (max-width:480px) {
+    .pr{
+      flex-direction: column;
+      text-align: center;
+      margin-top:3.12rem;
+    }
+
+    .pr-left {
+      width: 100%;
+    }
+
+    .pr-card {
+      height: 30vh;
+    }
+
+    .pr-card.bg {
+      display: none;
+    }
+
+    .pr-right{
+      padding: 0 1.25rem 0 1.25rem;
+    }
+
+    .pr-title {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    .pr-sub {
+        font-size: 1.3rem;
+    }
+}

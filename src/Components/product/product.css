@@ -1,0 +1,42 @@
+.p {
+    width: 30%;
+    height: 40vh;
+    margin: 1.25rem 0.62rem;
+    border: 2px solid rgba(15, 15, 15, 0.048);
+    border-radius: 0.62rem 0.62 rem 0px 0px;
+    overflow: hidden;
+
+}
+
+.p-browser {
+    height: 1.25rem;
+    background-color:rgb(238, 239, 245);
+    display: flex;
+    align-items: center;
+}
+
+.p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+
+.p-img {
+    width: 100%;   
+  }
+ 
+.p-title {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+  .p-title {
+    font-size: 10px;
+  }
+}

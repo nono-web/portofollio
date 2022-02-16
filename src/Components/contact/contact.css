@@ -180,14 +180,14 @@ button:hover {
     }
   
     input {
-      width: 120%;
+      width: 100%;
       height: 2.5rem;
       margin: 0.6rem;
       margin-left: 0;
     }
 
     textarea {
-        width: 120%;
+        width: 100%;
         height: 6rem;
     }
   

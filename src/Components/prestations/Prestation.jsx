@@ -20,13 +20,13 @@ const Prestation = () => {
             NonoduWeb propose à ses clients : 
           </p>
           <p className="pr-sub">
-              - Creation de site web : site vitrines, blog, services ou e-commerce.
+           💻 Creation de site web : site vitrines, blog, services ou e-commerce.
           </p>
           <p className="pr-sub">
-              - Tout les sites sont en Responsive design : Adapté à tout les supports.
+          📱 Tout les sites sont en Responsive design : Adapté à tout les supports.
           </p>
           <p className="pr-sub">
-              - Amélioration de sites existants ou rafraichissement du site.
+          ⌨️ Amélioration de sites existants ou rafraichissement du site.
           </p>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Contact = () => {
       });
    
       const onSubmit = (data, r) => {
-        alert("😀Thank you for your message, it will be treated as soon as possible 😀");
+        alert("😀 Merci pour votre message, il sera traité au plus vite 😀");
         const templateId = 'template_8ed58w8';
         const serviceId = 'service_mimumje';
         sendFeedback(serviceId, templateId, {user_lastName: data.user_lastName, user_firstName: data.user_firstName, user_compagny: data.user_compagny, user_phone: data.user_phone, user_email: data.user_email, user_subject: data.user_subject, message: data.message, reply_to: r.target.reset()})

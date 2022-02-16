@@ -141,7 +141,7 @@ button:hover {
  
 @media screen and (max-width: 480px) {
     .c {
-        height: 165vh;
+        height: 180vh;
     }
 
     .c-info-item {

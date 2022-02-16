@@ -127,7 +127,7 @@ const Contact = () => {
                       {...register("message")}
                       />
                       {errors.message && <p id="c-yup">{errors.message.message}</p>}
-                     <button>Submit</button>
+                     <button>Soumettre</button>
                  </form>
             </div>
         </div>

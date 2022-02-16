@@ -73,7 +73,7 @@
     color: rgba(0, 47, 255, 0.753);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .pr{
       flex-direction: column;
       text-align: center;
@@ -81,7 +81,8 @@
     }
 
     .pr-left {
-      width: 100%;
+      width: 70%;
+     margin-top: 3rem;
     }
 
     .pr-card {
@@ -97,12 +98,16 @@
     }
 
     .pr-title {
-        margin-top: 1rem;
         margin-bottom: 1rem;
         font-size: 2rem;
     }
 
     .pr-sub {
         font-size: 1.3rem;
+    }
+
+    .pr-img {
+        width: 100%;
+        height: 70%;
     }
 }

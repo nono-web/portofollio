@@ -30,10 +30,10 @@ const About = () => {
             J’ai 32 ans. Après avoir fait une formation à la Wild code School en Remote (à distance), j’ai lancé mon entreprise.
         </p>
         <p className="a-sub">
-            Le monde de la  tech évolue de jour en jour, mes connaissances sont en constante évolution. Dans ce métier, on en apprend tout les jours. 
+            Le monde de la  tech évolue de jour en jour, mes connaissances sont en constante évolution. Dans ce métier, on en apprend tous les jours. 
         </p>
         <p className="a-sub">
-            J'ai crée cette entreprise pour concevoir des sites web destinés aux particuliers mais aussi aux entreprises. Je peux aussi reprendre un site existant pour l'améliorer ou le rafraichir. Je serais ravie de vous accompagner dans votre projet web avec toutes mes idées et mes compétences.
+            J'ai créé cette entreprise pour concevoir des sites web destinés aux particuliers mais aussi aux entreprises. Je peux aussi reprendre un site existant pour l'améliorer ou le rafraichir. Je serais ravie de vous accompagner dans votre projet web avec toutes mes idées et mes compétences.
         </p>
         <h2 className="a-desc"> Mes Compétences </h2>
         <div className="a-award">

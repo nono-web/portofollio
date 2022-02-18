@@ -23,7 +23,7 @@ const Prestation = () => {
            💻 Creation de site web : site vitrines, blog, services ou e-commerce.
           </p>
           <p className="pr-sub">
-          📱 Tout les sites sont en Responsive design : Adapté à tout les supports.
+          📱 Tous les sites sont en Responsive design : Adapté à tous les supports.
           </p>
           <p className="pr-sub">
           ⌨️ Amélioration de sites existants ou rafraichissement du site.

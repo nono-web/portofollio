@@ -28,6 +28,9 @@ const Prestation = () => {
           <p className="pr-sub">
           ⌨️ Amélioration de sites existants ou rafraichissement du site.
           </p>
+          <p className="pr-sub">
+          🕙 Horaire d'ouverture : Du Lundi au Vendredi de 9h à 18h et le Samedi sur rendez-vous. 
+          </p>
         </div>
       </div>
     );

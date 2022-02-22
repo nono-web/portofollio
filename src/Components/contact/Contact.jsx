@@ -16,7 +16,7 @@ const schema = yup.object({
     user_lastName: yup.string().max(20).required("Votre prénom est requis"),
     user_firstName: yup.string().max(20).required("Votre nom est requis"),
     user_compagny: yup.string().max(30),
-    user_phone: yup.string().max(20),
+    user_phone: yup.string().max(20).required("Votre numéro de téléphone est requis"),
     user_email: yup.string().email("Merci d'entrer une adresse mail valide").max(255).required("Une adresse mail est requis"),
     user_subject: yup.string().max(255).required("Un sujet est requis"),
     message: yup.string().max(1000).required("Un message est requis"),
@@ -108,6 +108,7 @@ const Contact = () => {
                         name="user_phone" 
                         {...register("user_phone")}
                         />
+                        {errors.user_phone && <p id="c-yup">{errors.user_phone.message}</p>}
                      <input type="text"
                       placeholder="Adresse mail*"
                        name="user_email" 

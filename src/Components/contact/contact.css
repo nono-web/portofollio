@@ -89,11 +89,6 @@ input:hover {
     background-color: #59b256;
 }
 
-input:focus {
-    border-radius: 1rem 0px 1rem 0px;
-    background-color: #59b256;
-}
-
 textarea {
     width: 200%;
     margin: 0.8rem 0px;
@@ -138,17 +133,6 @@ button:hover {
     content: "⚠";
   }
 
-  .soumis {
-      opacity: 1;
-      background-color: green;
-      text-align: center;
-  }
-
-  .non-soumis {
-      opacity: 0;
-  }
-
- 
 @media screen and (max-width: 480px) {
     .c {
         height: 180vh;

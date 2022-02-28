@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {useForm} from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
@@ -23,6 +23,8 @@ const schema = yup.object({
   }).required();
 
 const Contact = () => {
+
+    const [isSelected1, setIsSelected1] = useState(false);
     
 
     const { register, formState: {errors}, handleSubmit } = useForm({
@@ -104,7 +106,7 @@ const Contact = () => {
                         />
                      <input
                       type="text"
-                       placeholder="Numero de téléphone"
+                       placeholder="Numero de téléphone*"
                         name="user_phone" 
                         {...register("user_phone")}
                         />

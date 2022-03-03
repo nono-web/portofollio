@@ -19,7 +19,7 @@ export const products = [
     },
     {
         id: 4,
-        img: "https://zupimages.net/up/21/52/t5mj.png",
+        img: "https://zupimages.net/up/22/09/dhps.png",
         link: "https://styletreize.fr/",
         title: "Projet StyleTreize (WordPress)",
     },
@@ -40,5 +40,11 @@ export const products = [
         img:"https://zupimages.net/up/22/07/srt3.png",
         link: "https://loading-delta.vercel.app/",
         title: "Projet Loading",
+    },
+    {
+        id: 8,
+        img:"https://zupimages.net/up/22/09/8ktl.png",
+        link: "https://planete-terre.nonoweb17.fr/",
+        title: "Projet planete-terre en 3D",
     }
 ]

@@ -43,7 +43,7 @@ export const products = [
     },
     {
         id: 8,
-        img:"https://zupimages.net/up/22/09/8ktl.png",
+        img:"https://zupimages.net/up/22/09/uxj2.png",
         link: "https://planete-terre.nonoweb17.fr/",
         title: "Projet planete-terre en 3D",
     }

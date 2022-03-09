@@ -6,7 +6,7 @@ import Contact from "./Components/contact/Contact";
 import Toggle from "./Components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import Prestation from "./Components/prestations/Prestation";
-import ScrollTopArrow from "./Components/ScrollTopArrow/ScrollTopArrow";
+
 
 
 function App() {
@@ -21,7 +21,6 @@ function App() {
       color: darkMode && "white",
       }}
     >
-      <ScrollTopArrow />
       <Toggle />
       <Intro />
       <About />

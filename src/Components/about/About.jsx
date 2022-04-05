@@ -31,7 +31,6 @@ const About = () => {
               {' '}
               Lien chaîne Youtube{' '}
             </a>
-            (17)
           </p>
           <p className="a-sub">
             J’habite actuellement à Montguyon en Charente-Maritime (17). Après

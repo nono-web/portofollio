@@ -22,14 +22,14 @@ const About = () => {
           <h1 className="a-title">Bonjour, Moi c’est Arnaud Didier,</h1>
           <p className="a-sub">
             Laissez-moi d'abord me présenter, j'ai 32 ans, je suis développeur
-            web et créateur de contenu sur Youtube.{' '}
+            web et créateur de contenu sur Youtube{' '}
             <a
               className="a-link"
               href="https://www.youtube.com/channel/UC7XJ6DSlPXaR4uwOo9lPBqQ"
               target="_blank"
             >
               {' '}
-              Lien chaîne Youtube{' '}
+              Lien chaîne Youtube.{' '}
             </a>
           </p>
           <p className="a-sub">

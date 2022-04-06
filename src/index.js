@@ -4,14 +4,11 @@ import App from './App';
 import CheckoutSteps from './Components/Navbar/CheckoutStep';
 import { ThemeProvider } from './context';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-    <App />
+      <App />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-

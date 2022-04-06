@@ -1,7 +1,6 @@
 import React from 'react';
 import './product.css';
 
-
 const Product = ({ img, link, title }) => {
   return (
     <div className="p">

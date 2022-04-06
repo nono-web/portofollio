@@ -43,7 +43,7 @@ const About = () => {
             Mon but est de concevoir des sites web destinés aux particuliers ou
             aux entreprises. Je cherche à répondre au mieux aux besoins de mes
             clients, qu’il s’agisse de créer de nouvelles fonctionnalités, de
-            retravailler le design ou de construire un projet de A à Z. 
+            retravailler le design ou de construire un projet de A à Z.
           </p>
           <h2 className="a-desc"> Mes Compétences </h2>
           <div className="a-award">

@@ -33,7 +33,8 @@ const Prestation = () => {
             en fonction ce ceux-ci. N’hésitez pas à me demander une devis.
           </p>
           <p className="pr-sub">
-          Maintenant que vous me connaissez mieux, découvrez mes différents travaux.
+            Maintenant que vous me connaissez mieux, découvrez mes différents
+            travaux.
           </p>
         </div>
       </div>

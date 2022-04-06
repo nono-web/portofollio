@@ -25,7 +25,8 @@ const ProductList = () => {
           ))}
         </div>
         <p className="pl-sub">
-        Vous avez fait le tour de toutes mes créations ? Il est temps de vous donner toutes mes coordonnées. C'est parti !!
+          Vous avez fait le tour de toutes mes créations ? Il est temps de vous
+          donner toutes mes coordonnées. C'est parti !!
         </p>
       </div>
     </div>

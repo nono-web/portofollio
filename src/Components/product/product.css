@@ -7,10 +7,11 @@
   overflow: hidden;
 }
 
-.p-link:visited, .p-link:active, .p-link:link {
+.p-link:visited,
+.p-link:active,
+.p-link:link {
   text-decoration: none;
   color: rgba(0, 47, 255, 0.753);
-
 }
 
 .p-browser {

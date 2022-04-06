@@ -30,12 +30,11 @@
 
 .pl-sub {
   font-weight: bold;
-    font-size: 1.5rem;
-    margin: 1.7rem 0;
+  font-size: 1.5rem;
+  margin: 1.7rem 0;
 }
 
 @media screen and (max-width: 480px) {
-  
   .pl-texts {
     width: 100%;
   }
@@ -60,7 +59,6 @@
 }
 
 @media screen and (min-width: 780px) and (max-width: 850px) {
-  
   .pl-texts {
     width: 100%;
   }

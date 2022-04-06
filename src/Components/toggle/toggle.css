@@ -27,9 +27,17 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .t {
         top: 2.5rem;
     }
 
 }
+
+@media screen and (min-width: 780px) and (max-width: 850px) {
+    .t {
+        top: 2.5rem;
+    }
+
+}
+

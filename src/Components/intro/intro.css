@@ -76,7 +76,7 @@
   margin: 0rem auto 0rem auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
   .i-title-item {
     font-size: 1.2rem;
@@ -105,3 +105,33 @@
 
   }
 }
+
+@media screen and (min-width: 780px) and (max-width: 850px) {
+
+    .i-title-item {
+      font-size: 2rem;
+      display: block;
+    }
+  
+    .i-name {
+      font-size:3rem;
+      padding: 1rem;
+    }
+    .i-desc {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 0rem 1rem 0rem 1rem;
+      padding: 1rem 1rem 0rem 1rem;
+    }
+    .i-img {
+      width: 55%;
+    margin-top: 0rem;
+    }
+    
+    .i-img-logo {
+      width: 35%;
+      margin-top:0;
+  
+    }
+  }

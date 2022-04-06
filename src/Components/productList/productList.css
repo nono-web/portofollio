@@ -34,7 +34,7 @@
     margin: 1.7rem 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   
   .pl-texts {
     width: 100%;
@@ -55,6 +55,31 @@
 
   .pl-sub {
     font-size: 1.1rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 850px) {
+  
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-title {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+  .pl-list {
+    margin: 0.1rem;
+  }
+  .pl-img {
+    width: 35%;
+    height: 40%;
+  }
+
+  .pl-sub {
+    font-size: 2rem;
     margin: 1rem;
   }
 }

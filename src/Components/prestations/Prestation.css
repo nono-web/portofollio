@@ -28,7 +28,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     .pr{
       flex-direction: column;
       text-align: center;
@@ -52,5 +52,32 @@
     .pr-img {
         width: 50%;
         height: 25%;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 850px) {
+    .pr{
+      flex-direction: column;
+      text-align: center;
+      height: 130vh;
+    }
+
+    .pr-right{
+      padding: 0 1.25rem 0 1.25rem;
+    }
+
+    .pr-title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    .pr-sub {
+        font-size: 2rem;
+        margin: 2rem 1rem;
+    }
+
+    .pr-img {
+        width: 40%;
+        height: 35%;
     }
 }

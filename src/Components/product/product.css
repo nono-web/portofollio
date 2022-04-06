@@ -46,7 +46,7 @@
   background-color: rgb(238, 239, 245);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .p {
     width: 100%;
     height: 20vh;
@@ -54,6 +54,21 @@
   }
   .p-title {
     font-size: 10px;
+  }
+  .p-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 850px) {
+  .p {
+    width: 100%;
+    height: 30vh;
+    border-radius: 0.5rem;
+  }
+  .p-title {
+    font-size: 1.5rem;
   }
   .p-img {
     width: 100%;

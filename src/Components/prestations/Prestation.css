@@ -55,11 +55,11 @@
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 850px) {
+@media screen and (min-width: 480px) and (max-width: 850px) {
   .pr {
     flex-direction: column;
     text-align: center;
-    height: 130vh;
+    height: 125vh;
   }
 
   .pr-right {
@@ -72,12 +72,12 @@
   }
 
   .pr-sub {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 2rem 1rem;
   }
 
   .pr-img {
-    width: 40%;
-    height: 35%;
+    width: 30%;
+    height: 25%;
   }
 }

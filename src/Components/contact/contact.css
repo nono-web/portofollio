@@ -195,12 +195,12 @@ button:hover {
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 850px) {
+@media screen and (min-width: 480px) and (max-width: 850px) {
   .c {
-    height: 160vh;
+    height: 200vh;
   }
   .c-img {
-    width: 45%;
+    width: 35%;
   }
   .c-info {
     flex-direction: column;

@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 850px) {
+@media screen and (min-width: 480px) and (max-width: 860px) {
   .t {
     top: 2.5rem;
   }

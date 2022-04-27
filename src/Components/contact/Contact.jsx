@@ -62,7 +62,7 @@ const Contact = () => {
 
   const sendFeedback = (serviceId, templateId, variables) => {
     emailjs
-      .send(serviceId, templateId, variables)
+      .sendForm(serviceId, templateId, variables)
       .then((res) => {
         console.log('succes');
       })

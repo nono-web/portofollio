@@ -13,6 +13,7 @@ import Email from '../../img/email.png';
 import Adress from '../../img/address.png';
 import github from '../../img/github.jpg';
 import linkedin from '../../img/linkedin.png';
+import youtube from '../../img/youtube.png';
 
 const schema = yup
   .object({
@@ -88,7 +89,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Adress} alt="" className="c-icon" />
-              <p className="c-infos"> 24 rue des écoles, 17270 Montguyon </p>
+              <p className="c-infos"> 17270 Montguyon </p>
             </div>
             <div className="c-info-item">
               <a
@@ -110,6 +111,16 @@ const Contact = () => {
                 <img src={linkedin} alt="" className="c-icon" />{' '}
               </a>
               <p className="c-infos"> Arnaud Didier </p>
+            </div>
+            <div className="c-info-item">
+              <a
+                className="c-a"
+                href="https://www.youtube.com/channel/UC7XJ6DSlPXaR4uwOo9lPBqQ"
+                target="_blank"
+              >
+                <img src={youtube} alt="" className="c-icon" />{' '}
+              </a>
+              <p className="c-infos"> NonoduWeb </p>
             </div>
           </div>
           <form onSubmit={handleSubmit(onSubmit)}>
